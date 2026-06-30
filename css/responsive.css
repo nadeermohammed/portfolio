@@ -1,0 +1,299 @@
+/* ===================================
+   Large Screens
+=================================== */
+
+@media(max-width:1200px){
+
+#home{
+
+padding:140px 8%;
+
+}
+
+.left h1{
+
+font-size:55px;
+
+}
+
+.left h2{
+
+font-size:30px;
+
+}
+
+.image-card{
+
+width:320px;
+
+height:400px;
+
+}
+
+}
+
+/* ===================================
+   Tablets
+=================================== */
+
+@media(max-width:992px){
+
+header{
+
+padding:20px 5%;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+#home{
+
+flex-direction:column-reverse;
+
+text-align:center;
+
+padding-top:160px;
+
+}
+
+.left{
+
+width:100%;
+
+margin-top:50px;
+
+}
+
+.right{
+
+width:100%;
+
+}
+
+.image-card{
+
+width:300px;
+
+height:380px;
+
+}
+
+.buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.skills-grid{
+
+grid-template-columns:
+
+repeat(2,1fr);
+
+}
+
+.project-container{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* ===================================
+   Mobile
+=================================== */
+
+@media(max-width:768px){
+
+.logo{
+
+font-size:28px;
+
+}
+
+nav ul{
+
+gap:15px;
+
+}
+
+nav ul li{
+
+margin-left:0;
+
+}
+
+.left h1{
+
+font-size:42px;
+
+}
+
+.left h2{
+
+font-size:24px;
+
+}
+
+.left h3{
+
+font-size:22px;
+
+}
+
+.left p{
+
+font-size:16px;
+
+line-height:28px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.buttons a{
+
+width:220px;
+
+text-align:center;
+
+}
+
+.image-card{
+
+width:260px;
+
+height:330px;
+
+}
+
+section h1{
+
+font-size:35px;
+
+}
+
+.skills-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.card{
+
+padding:30px;
+
+}
+
+.project{
+
+padding:25px;
+
+}
+
+.social{
+
+gap:20px;
+
+}
+
+.social a{
+
+width:55px;
+
+height:55px;
+
+font-size:22px;
+
+}
+
+}
+
+/* ===================================
+   Small Phones
+=================================== */
+
+@media(max-width:480px){
+
+header{
+
+padding:15px;
+
+}
+
+.left h1{
+
+font-size:34px;
+
+}
+
+.left h2{
+
+font-size:20px;
+
+}
+
+.left p{
+
+font-size:15px;
+
+}
+
+.image-card{
+
+width:220px;
+
+height:290px;
+
+}
+
+.buttons a{
+
+width:200px;
+
+padding:12px 20px;
+
+}
+
+.card{
+
+font-size:18px;
+
+}
+
+.project h2{
+
+font-size:22px;
+
+}
+
+footer{
+
+font-size:15px;
+
+}
+
+}
